@@ -3,7 +3,7 @@ package collections_loops.tasks
 import kotlin.random.Random
 
 fun main(){
-
+println(task1())
 }
 
 /*
@@ -12,7 +12,18 @@ Task1: Сумма элементов списка
 Задание: Создай список из пяти чисел. Вычисли и выведи сумму всех элементов списка.
 */
 fun task1() {
+    val fruits: List<Int> = listOf(1,2,3,4,5)
+    var sum = 0
+    fruits.forEach {
+        println(it)
+
+
+    }
+    println(sum)
+
 }
+
+
 
 /*
 Task2: Поиск максимального числа в списке
